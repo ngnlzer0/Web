@@ -274,6 +274,18 @@ footer {
     to { opacity: 1 }
 }
 
+@font-face {
+    font-family: 'PTSansLocal';
+    src: url('fonts/PTSans-Regular.woff2') format('woff2'),
+         url('fonts/PTSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.phones {
+    font-family: 'PTSansLocal', sans-serif;
+}
+
 /*  ////////////////////////////////////////// CATALOG.html ///////////////////////////////////////////////////  */
 
 .product-card {
@@ -309,3 +321,35 @@ footer {
     object-fit: cover;
   }
   
+
+  /*  ///////////////////////////////// ABOUT US SECTION  /////////////////////  */
+
+  .btn-warning {
+    background-color: #d4a019;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-weight: 600;
+  }
+  
+  .btn-warning:hover {
+    background-color: #b88a13;
+  }
+  
+  .image-box {
+      height: 300px; 
+      overflow: hidden;
+      border-radius: 10px;
+    }
+  
+    .image-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .custom-container {
+        width: 70%;
+      }
+
+      
